@@ -10,11 +10,11 @@ int main(void)
 
 	for (x = 10; x < 20; x++)
 	{
-		putchar((x % 10) = '0');
+		putchar((x % 10) + '0');
 		if (x != 19)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
