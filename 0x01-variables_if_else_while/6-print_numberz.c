@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers of base 10 from 0 using putchar
+ * main - Entry point
+ * Print all single digit numbers of base ten using putchar
  *
- * Return : 0 as SUCCESS
+ * Return: 0 Always as SUCCESS
 */
 int main(void)
 {
