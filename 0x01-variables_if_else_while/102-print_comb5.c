@@ -18,12 +18,15 @@ int main(void)
 			putchar(' ');
 			putchar(r / 10 + '0');
 			putchar(r % 10 + '0');
-			if (p != 99 || r != 99)
+			if (!(p == 98 && r == 99))
 			{
 				putchar(',');
 				putchar(' ');
 			}
+
 		}
+
 	}
+	putchar('\n');
 	return (0);
 }
