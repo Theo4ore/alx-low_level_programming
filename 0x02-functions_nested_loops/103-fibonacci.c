@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-	inti x = 0;
+	int x = 0;
 	long y = 1, z = 2, sum = z;
 
-	while (k + j < 4000000)
+	while (z + y < 4000000)
 	{
 		k += y;
 		if (z % 2 == 0)
