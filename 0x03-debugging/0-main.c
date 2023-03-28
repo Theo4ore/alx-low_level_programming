@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * main - test for a postitive or negative
  *
- * Return: 0 when SUCCESSFUL
+ * Return: 0
  */
 int main(void)
 {
@@ -10,5 +11,6 @@ int main(void)
 
 	x = 0;
 	postitive_or_negative(x);
+	
 	return (0);
 }
