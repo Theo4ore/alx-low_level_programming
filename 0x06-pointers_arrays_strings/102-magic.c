@@ -7,7 +7,17 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	*(p + 5) = 98;
+/*
+ * Write code here...
+ * Note:
+ * You are not allowed to use the variable a in your new line of code
+ * You are not allowed to modify the variable p
+ * One statement expected
+ * no coding other than this line of code
+ */
+
+ 	*(p + 5) = 98;
+	/* ...this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
