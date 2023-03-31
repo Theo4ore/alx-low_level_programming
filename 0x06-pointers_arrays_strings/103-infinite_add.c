@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * rev_string - Reverse array.
  * @n: Integer to be computed.
  * Return: 0 Always.
  */
+
 void rev_string(char *n)
 {
 	int i = 0;
@@ -32,6 +34,7 @@ void rev_string(char *n)
  * @size_r: Buffer size.
  * Return: Point to function.
  */
+
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int overflow = 0, i = 0, j = 0, digits = 0;
@@ -73,3 +76,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	rev_string(r);
 	return (r);
 }
+
