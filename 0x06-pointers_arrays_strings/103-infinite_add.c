@@ -2,10 +2,8 @@
 /**
  * rev_string - reverse array
  * @n: Integer
- *
  * Return: 0
  */
-
 void rev_string(char *n)
 {
 	int i = 0;
