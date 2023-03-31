@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * rev_string - reverse array
- * @n: Integer
- * Return: 0
+ * rev_string - Reverse array.
+ * @n: Integer to be computed.
+ * Return: 0 Always.
  */
 void rev_string(char *n)
 {
@@ -23,14 +23,14 @@ void rev_string(char *n)
 		*(n + i) = temp;
 	}
 }
+
 /**
  * infinite_add - adds two numbers.
- * @n1: Number 1
- * @n2: Number 2
- * @r: Poniter
- * @size_r: Buffer size
- *
- * Return: Point to function
+ * @n1: First Number.
+ * @n2: second Number.
+ * @r: Poniter.
+ * @size_r: Buffer size.
+ * Return: Point to function.
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -71,5 +71,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (0);
 	*(r + digits) = '\0';
 	rev_string(r);
-	return(r);
+	return (r);
 }
