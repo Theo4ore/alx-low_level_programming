@@ -27,10 +27,10 @@ void rev_string(char *n)
 }
 
 /**
- * infinite_add - adds two numbers.
+ * infinite_add - Adds two numbers.
  * @n1: First Number.
- * @n2: second Number.
- * @r: Poniter.
+ * @n2: Second Number.
+ * @r: Pointer.
  * @size_r: Buffer size.
  * Return: Point to function.
  */
