@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strchr - function that locates a character in a string.
- * @c: input to be entered
- * @s: Input 
+ * _strchr - Function to locate a character in a string.
+ * @c: Input
+ * @s: Input
  *
  * Return: 0 as SUCCESS
  */
