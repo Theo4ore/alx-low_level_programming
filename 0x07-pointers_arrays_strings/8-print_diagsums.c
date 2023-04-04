@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - Print sum of the two diagonals of a square 
+ * print_diagsums - Entry point
  * @a: Input
  * @size: Input
  * Return: 0 ALWAYS
@@ -9,7 +9,6 @@
 void print_diagsums(int *a, int size)
 {
 	int s1, s2, t;
-
 	s1 = 0;
 	s2 = 0;
 
